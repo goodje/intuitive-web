@@ -1,0 +1,110 @@
+#main a {
+    color: #ad3640;
+}
+
+#content {
+    width: 73%;
+    padding: 5px 10px 10px 20px;
+    background-color: #fdf9e6;
+    color: #1d1906;
+}
+
+#content .wiki {
+    font: 14px/22px "Serif vs sans serif", Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif;
+}
+
+
+/**** index */
+div.wiki ul.toc {
+	background-color: #ffffee;
+}
+#content div ul.toc a{
+    font-weight: bold;
+}
+
+div.wiki ul.toc.right {
+    float: none;
+    margin: 10px 10px 10px 0;
+    padding: 10px 20px;
+}
+
+div.wiki ul.toc li li {
+    font-size: 12px;
+    line-height: 2em;
+}
+
+div.wiki ul.toc a {
+    font-size: 12px;
+}
+
+/**** content */
+#content .wiki a {
+    color: #b50606;
+    font-weight: normal;
+}
+
+div.wiki code {
+    background-color: #f3f3f3;
+	border-radius: 4px;
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.wiki h1, .wiki h2, .wiki h3, .wiki h4 {
+    margin: 40px 0 10px;
+    color: #333;
+}
+
+.wiki-page p {
+    margin-block-start: 0;
+    margin-block-end: 2em;
+}
+
+div.wiki th {
+    background-color: #fdf3c9;
+    border-color: #f7ebae;
+}
+div.wiki table, div.wiki td, div.wiki th {
+    border: 1px solid #f7ebae;
+    padding: 8px;
+}
+
+div.wiki pre {
+    font-size: 12px;
+}
+
+/* first column */
+table .wiki-class-level2 {
+    background-color: #fdf3c9;
+}
+
+/**/
+table.list:not(.odd-even) tbody tr:nth-child(even), .even, #issue-changesets div.changeset:nth-child(even) {
+	background: none;
+}
+
+div#issue-changesets {
+    font-size: inherit;
+    background-color: #ffffdd;
+    max-width: max-content;
+    min-width: max-content;
+    padding-top: 10px;
+}
+
+div#issue-changesets div.changeset {
+    border: none;
+}
+
+
+@media screen and (max-width: 899px) {
+
+	div#issue-changesets {
+			float: none;
+			width: auto;
+			margin-left: 0;
+			margin-bottom: 2em;
+			padding-left: 1em;
+			max-width: none;
+	}
+}
+
